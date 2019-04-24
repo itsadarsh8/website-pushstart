@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 42px;
+        font-family: NexaBold, Nexa Bold;
+      }
+    </style>
+  </defs>
+  <g id="logo" transform="translate(641 -766)">
+    <text id="URBANSTOP" class="cls-1" transform="translate(-641 798)"><tspan x="0" y="0">URBANSTOP</tspan></text>
+  </g>
+</svg>
