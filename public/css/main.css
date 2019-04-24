@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@font-face{
+/* @font-face{
     font-family:"Raleway Black";
     src:url(../font/Raleway-Black.ttf) format("truetype")
 }
@@ -90,17 +89,6 @@ nav {
     height: 56px;
     line-height: 56px;
 }
-.brand-logo{
-margin-right: 20%;
-
-}
-.hide-on-med-and-down li a{
-    font-size: 24px !important;
-    font-family: 'Righteous', cursive;
-    color:black !important
-    
-    
-}
 .box{
     height:400px;
     
@@ -120,7 +108,7 @@ margin-right: 20%;
     margin-bottom: 0 !important;
 }
 
-a {
+nav a {
     color: #707070 !important;
 }
 
@@ -216,7 +204,15 @@ margin-left:40%;
     width: 100%;
   }
   
-
+  .color-overlay {
+    position: absolute;
+    
+    background-color: lightblue;
+    width: 204vh;
+    height: 56vh;
+    opacity: 0.5;
+   
+  }
   
 
 
@@ -255,13 +251,21 @@ p6 {
     
 }
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
 .top-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 #banner {
     height: 100vh;
-    background: linear-gradient(30deg, #3692C7 45%, #48B5F4) !important;
+    background: linear-gradient(0deg, #1b4964eb 43%, #1a5577eb) !important;
     background: #3692C7;
 
 }
@@ -276,6 +280,7 @@ p6 {
 
 .head-title {
     color: #fff;
+    text-align: center;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -479,7 +484,6 @@ h5 {
     margin: 0;
 }
 
-/* video testimonials */
 
 
 .contain_archive {
@@ -608,7 +612,6 @@ h5 {
       color: #fff;
   }
 
-  /* end here */
 
 .achievements {
     background-color: #EEF1F6;
@@ -856,7 +859,6 @@ h5 {
     }
   } 
 
-  
   @media only screen and (max-width: 360px) {
 
     .tile__img {
@@ -893,45 +895,74 @@ h5 {
         z-index: 1000;
         margin-top: 7%;
     }
-    html, body {
-        margin: 0;
-        padding: 0;
-      }
+  }  */
+
+
+
+  header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
   
-      * {
-        box-sizing: border-box;
-      }
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
   
-      .slider {
-          width: 50%;
-          margin: 100px auto;
-      }
+  header .container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+  }
   
-      .slick-slide {
-        margin: 0px 20px;
-      }
-  
-      .slick-slide img {
-        width: 100%;
-      }
-  
-      .slick-prev:before,
-      .slick-next:before {
-        color: black;
-      }
-  
-  
-      .slick-slide {
-        transition: all ease-in-out .3s;
-        opacity: .2;
-      }
-  
-      .slick-active {
-        opacity: .5;
-      }
-  
-      .slick-current {
-        opacity: 1;
-      }
-    
-  } 
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, #1b4964eb 43%, #1a5577eb) !important;;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 100% !important;
+    overflow: hidden;
+}
+
+.w-100 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+  header h1 {
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      color: #fff;
+  }
+
+  header h1 span {
+    color: #ebe259;
+}
