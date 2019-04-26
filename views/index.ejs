@@ -98,12 +98,12 @@
 <body>
     <main>
         <nav>
-            <div class="navbar blue">
-                <div class="nav-wrapper white ">
+            <div class="container">
+                <div class="nav-wrapper ">
                     <a href="/" class="brand-logo left">
                         <img src="./img/logo.svg" />
                     </a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down ">
+                    <ul id="nav-mobile white" class="right hide-on-med-and-down ">
                         <li><a href="#">Home</a></li>
                         <li><a href="/about">About Us</a></li>
                         <li><a href="#join">Join Pushstart</a></li>
@@ -136,8 +136,21 @@
                         Community of <span>Entrepreneurs</span>
                   </h1>
                 </div>
+                <div class="coverlogin">
+                <div class="row">
+                    <form action="/signup" method="POST">
+                        <div class="input-field col s7 offset-s4">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="Your email id" />
+                        </div>
+                        <div class="input-field col s1 inline-btn">
+                            <button type="submit" class="waves-effect waves-light btn">Join Now</button>
+                        </div>
+                    </form>
+                </div>
               </div>
             </div>
+        </div>
           </header>
 
         <!-- About -->

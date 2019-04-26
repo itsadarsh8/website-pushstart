@@ -1,4 +1,4 @@
-/* @font-face{
+@font-face{
     font-family:"Raleway Black";
     src:url(../font/Raleway-Black.ttf) format("truetype")
 }
@@ -141,6 +141,10 @@ nav ul a:hover {
     color:#03a9f4;
     margin-bottom:0 !important;
     
+}
+.coverlogin{
+    margin-top: 65vh;
+    margin-left: 20vh;
 }
 #aboutus .container p span{
    
@@ -895,7 +899,7 @@ h5 {
         z-index: 1000;
         margin-top: 7%;
     }
-  }  */
+  }  
 
 
 
@@ -939,6 +943,7 @@ h5 {
     opacity: 0.5;
     z-index: 1;
   }
+  
 
   .video-container {
     position: relative;
