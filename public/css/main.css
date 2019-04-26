@@ -221,15 +221,29 @@ margin-left:40%;
 
 
 h2 {
-    color: #303F46 !important;
-    font-size: 70px !important;
-    font-weight: 400 !important;
+
+    font-family: Helvetica !important;
+    font-size: 36px !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: 1.19 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #303f46 !important;
 }
 
 p {
-    font-size: 25px;
-    text-shadow: #111111;
-    color:#111111;
+   
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6b7b83;
 }
 h3{
     color:#2196f3;
